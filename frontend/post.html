@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>View Post</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="nav">
+        <a href="index.html">Home</a>
+        <a id="editLink" class="hidden">Edit</a>
+      </div>
+      <div>
+        <span id="whoami" class="small"></span>
+        <a id="loginLink" href="login.html">Login</a>
+        <a id="logoutLink" class="hidden" href="#">Logout</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h1 id="title">...</h1>
+      <div class="small">By <span id="author"></span> • <span id="created_at"></span></div>
+      <div id="content" style="white-space:pre-wrap;margin-top:1rem;"></div>
+      <div class="row">
+        <button id="deleteBtn" class="secondary hidden">Delete</button>
+      </div>
+    </div>
+  </div>
+  <script src="js/api.js"></script>
+  <script src="js/post.js"></script>
+</body>
+</html>
