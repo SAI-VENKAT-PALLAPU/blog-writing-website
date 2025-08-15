@@ -25,7 +25,7 @@ A full-stack blog writing platform built using **JavaScript**, **Node.js**, and 
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/blog-writing-website.git
+git clone https://github.com/SAI-VENKAT-PALLAPU/blog-writing-website.git
 cd blog-writing-website
 
 2️⃣ Backend Setup
@@ -49,3 +49,4 @@ npm start
 3️⃣ Frontend Setup
 cd ../frontend
 npx live-server
+
